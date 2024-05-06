@@ -1,0 +1,43 @@
+{
+"csv_dataset_root_directory": "tests/test_csv_dataset",
+"csv_filepaths": [
+"tests/test_csv_dataset/test_dataset_inputs.csv"
+],
+"samples": [
+[
+0,
+[
+0,
+1
+]
+],
+[
+0,
+[
+1,
+2
+]
+],
+[
+0,
+[
+2,
+3
+]
+],
+[
+0,
+[
+3,
+4
+]
+],
+[
+0,
+[
+4,
+5
+]
+]
+]
+}
