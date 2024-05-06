@@ -33,10 +33,9 @@ from torch.utils.data import DataLoader, Dataset, Subset
 from tqdm import tqdm
 
 sys.path.insert(0, "../../")
-from neural_mpc.normalized_discrete.dataset import NormalizedDiscreteCSVDataset, NORMALIZED_DISCRETE_CSV_COLUMNS
-from neural_mpc.normalized_discrete.model import NormalizedDiscrete
-# Temporary
-from neural_mpc.normalized_discrete.visualize_model import create_2d_state_plot, create_channel_error_plots, create_channel_value_plots, create_channel_value_comparison_plots
+from neural_dynamics.normalized_discrete.dataset import NormalizedDiscreteCSVDataset, NORMALIZED_DISCRETE_CSV_COLUMNS
+from neural_dynamics.normalized_discrete.model import NormalizedDiscrete
+from neural_dynamics.normalized_discrete.visualize_model import create_2d_state_plot, create_channel_error_plots, create_channel_value_plots, create_channel_value_comparison_plots
 
 
 def get_per_sample_predictions(model: NormalizedDiscrete,

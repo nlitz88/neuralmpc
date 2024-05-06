@@ -10,8 +10,8 @@ import sys
 
 import numpy as np
 sys.path.insert(0, "../../")
-from neural_mpc.normalized_discrete.dataset import NORMALIZED_DISCRETE_CSV_COLUMNS, load_dataset_files, load_sample_index
-from neural_mpc.normalized_discrete.balance_dataset import compute_sample_differences
+from neural_dynamics.normalized_discrete.dataset import NORMALIZED_DISCRETE_CSV_COLUMNS, load_dataset_files, load_sample_index
+from neural_dynamics.normalized_discrete.balance_dataset import compute_sample_differences
 
 
 # Need to write the visualization function that uses plotly express to create

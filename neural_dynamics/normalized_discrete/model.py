@@ -14,7 +14,7 @@ from lightning.pytorch import loggers as pl_loggers
 
 import sys
 sys.path.insert(0, "../../")
-from neural_mpc.normalized_discrete.dataset import NormalizedDiscreteCSVDataset
+from neural_dynamics.normalized_discrete.dataset import NormalizedDiscreteCSVDataset
 
 # TODO: Create a function to parameterize the definition of our model.
 

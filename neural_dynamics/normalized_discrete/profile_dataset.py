@@ -11,7 +11,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, "../../")
-from neural_mpc.normalized_discrete.dataset import NormalizedDiscreteCSVDataset, NORMALIZED_DISCRETE_CSV_COLUMNS
+from neural_dynamics.normalized_discrete.dataset import NormalizedDiscreteCSVDataset, NORMALIZED_DISCRETE_CSV_COLUMNS
 
 
 # TODO: Create function that identifies laps in the provided dataset.
