@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (pure_pursuit) JobQueued: {'identifier': 'pure_pursuit', 'dependencies': OrderedDict()}
+[0.000830] (pure_pursuit) JobStarted: {'identifier': 'pure_pursuit'}
+[0.014819] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'cmake'}
+[0.015731] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '/sim_ws/src/pure_pursuit', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/sim_ws/src/pure_pursuit/install/pure_pursuit'], 'cwd': '/sim_ws/src/pure_pursuit/build/pure_pursuit', 'env': OrderedDict([('HOSTNAME', '488f32d8d46c'), ('GIT_ASKPASS', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a0362b77-6794-4d85-a929-368d435df52e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6f9c030c-c426-40f2-9570-b6a6c5b70a25.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6f9c030c-c426-40f2-9570-b6a6c5b70a25.sock","/tmp/.X11-unix/X1","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', '172.23.224.1:0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockercxdob6nl.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f125313c67.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6f9c030c-c426-40f2-9570-b6a6c5b70a25.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/sim_ws/src/pure_pursuit/build/pure_pursuit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.105344] (-) TimerEvent: {}
+[0.133066] (pure_pursuit) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.184620] (pure_pursuit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.190995] (pure_pursuit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.206683] (-) TimerEvent: {}
+[0.264882] (pure_pursuit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.266091] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.310232] (-) TimerEvent: {}
+[0.327324] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.338347] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.338767] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.341247] (pure_pursuit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.408529] (pure_pursuit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.409425] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.410359] (-) TimerEvent: {}
+[0.480697] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.491316] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.491766] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.495269] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.511176] (-) TimerEvent: {}
+[0.512077] (pure_pursuit) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.512260] (pure_pursuit) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.612570] (-) TimerEvent: {}
+[0.650830] (pure_pursuit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.678306] (pure_pursuit) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.715592] (-) TimerEvent: {}
+[0.723427] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.731659] (pure_pursuit) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.795563] (pure_pursuit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.812177] (pure_pursuit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.815958] (-) TimerEvent: {}
+[0.876686] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.916432] (-) TimerEvent: {}
+[0.934922] (pure_pursuit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.936650] (pure_pursuit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.937982] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001095] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.001474] (pure_pursuit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.017175] (-) TimerEvent: {}
+[1.067795] (pure_pursuit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.068176] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.118861] (-) TimerEvent: {}
+[1.122194] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.122569] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.188271] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.189219] (pure_pursuit) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.219503] (-) TimerEvent: {}
+[1.326502] (-) TimerEvent: {}
+[1.348877] (pure_pursuit) StdoutLine: {'line': b'-- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.350247] (pure_pursuit) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.384808] (pure_pursuit) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.427158] (-) TimerEvent: {}
+[1.458705] (pure_pursuit) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[1.495508] (pure_pursuit) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.527682] (-) TimerEvent: {}
+[1.569123] (pure_pursuit) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[1.631563] (-) TimerEvent: {}
+[1.650220] (pure_pursuit) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.738466] (-) TimerEvent: {}
+[1.839208] (-) TimerEvent: {}
+[1.940190] (-) TimerEvent: {}
+[2.009947] (pure_pursuit) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[2.018713] (pure_pursuit) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[2.020122] (pure_pursuit) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[2.040943] (-) TimerEvent: {}
+[2.075943] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.141825] (-) TimerEvent: {}
+[2.146927] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.150225] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.150527] (pure_pursuit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /sim_ws/src/pure_pursuit/include\n'}
+[2.150635] (pure_pursuit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.153552] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.153727] (pure_pursuit) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.154635] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.156003] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.157036] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.160576] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.160723] (pure_pursuit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.162028] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.166653] (pure_pursuit) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.200318] (pure_pursuit) StdoutLine: {'line': b'-- Generating done\n'}
+[2.202410] (pure_pursuit) StdoutLine: {'line': b'-- Build files have been written to: /sim_ws/src/pure_pursuit/build/pure_pursuit\n'}
+[2.209155] (pure_pursuit) CommandEnded: {'returncode': 0}
+[2.212150] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'build'}
+[2.212251] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/pure_pursuit/build/pure_pursuit', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/pure_pursuit/build/pure_pursuit', 'env': OrderedDict([('HOSTNAME', '488f32d8d46c'), ('GIT_ASKPASS', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a0362b77-6794-4d85-a929-368d435df52e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6f9c030c-c426-40f2-9570-b6a6c5b70a25.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6f9c030c-c426-40f2-9570-b6a6c5b70a25.sock","/tmp/.X11-unix/X1","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', '172.23.224.1:0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockercxdob6nl.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f125313c67.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6f9c030c-c426-40f2-9570-b6a6c5b70a25.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/sim_ws/src/pure_pursuit/build/pure_pursuit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.242115] (-) TimerEvent: {}
+[2.248026] (pure_pursuit) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target record_waypoint_node\x1b[0m\n'}
+[2.248312] (pure_pursuit) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pure_pursuit_node\x1b[0m\n'}
+[2.282770] (pure_pursuit) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/record_waypoint_node.dir/src/record_waypoint_node.cpp.o\x1b[0m\n'}
+[2.289635] (pure_pursuit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o\x1b[0m\n'}
+[2.342816] (-) TimerEvent: {}
+[2.444124] (-) TimerEvent: {}
+[2.549641] (-) TimerEvent: {}
+[2.653205] (-) TimerEvent: {}
+[2.754394] (-) TimerEvent: {}
+[2.860759] (-) TimerEvent: {}
+[2.961223] (-) TimerEvent: {}
+[3.069258] (-) TimerEvent: {}
+[3.173515] (-) TimerEvent: {}
+[3.280747] (-) TimerEvent: {}
+[3.389429] (-) TimerEvent: {}
+[3.490758] (-) TimerEvent: {}
+[3.599437] (-) TimerEvent: {}
+[3.702121] (-) TimerEvent: {}
+[3.811086] (-) TimerEvent: {}
+[3.911765] (-) TimerEvent: {}
+[4.014150] (-) TimerEvent: {}
+[4.114619] (-) TimerEvent: {}
+[4.216000] (-) TimerEvent: {}
+[4.324118] (-) TimerEvent: {}
+[4.428279] (-) TimerEvent: {}
+[4.532689] (-) TimerEvent: {}
+[4.636762] (-) TimerEvent: {}
+[4.737406] (-) TimerEvent: {}
+[4.845501] (-) TimerEvent: {}
+[4.946492] (-) TimerEvent: {}
+[5.050577] (-) TimerEvent: {}
+[5.151723] (-) TimerEvent: {}
+[5.256176] (-) TimerEvent: {}
+[5.358626] (-) TimerEvent: {}
+[5.466751] (-) TimerEvent: {}
+[5.571577] (-) TimerEvent: {}
+[5.678776] (-) TimerEvent: {}
+[5.782947] (-) TimerEvent: {}
+[5.883319] (-) TimerEvent: {}
+[5.983743] (-) TimerEvent: {}
+[6.084173] (-) TimerEvent: {}
+[6.184640] (-) TimerEvent: {}
+[6.287594] (-) TimerEvent: {}
+[6.344086] (pure_pursuit) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pure_pursuit_node\x1b[0m\n'}
+[6.388206] (-) TimerEvent: {}
+[6.488874] (-) TimerEvent: {}
+[6.595241] (pure_pursuit) StdoutLine: {'line': b'[ 75%] Built target pure_pursuit_node\n'}
+[6.595418] (-) TimerEvent: {}
+[6.695936] (-) TimerEvent: {}
+[6.802390] (-) TimerEvent: {}
+[6.903116] (-) TimerEvent: {}
+[7.003487] (-) TimerEvent: {}
+[7.103955] (-) TimerEvent: {}
+[7.204331] (-) TimerEvent: {}
+[7.211755] (pure_pursuit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable record_waypoint_node\x1b[0m\n'}
+[7.305065] (-) TimerEvent: {}
+[7.405559] (-) TimerEvent: {}
+[7.416110] (pure_pursuit) StdoutLine: {'line': b'[100%] Built target record_waypoint_node\n'}
+[7.431721] (pure_pursuit) CommandEnded: {'returncode': 0}
+[7.457917] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'install'}
+[7.467366] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/sim_ws/src/pure_pursuit/build/pure_pursuit'], 'cwd': '/sim_ws/src/pure_pursuit/build/pure_pursuit', 'env': OrderedDict([('HOSTNAME', '488f32d8d46c'), ('GIT_ASKPASS', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a0362b77-6794-4d85-a929-368d435df52e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6f9c030c-c426-40f2-9570-b6a6c5b70a25.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6f9c030c-c426-40f2-9570-b6a6c5b70a25.sock","/tmp/.X11-unix/X1","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', '172.23.224.1:0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockercxdob6nl.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f125313c67.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6f9c030c-c426-40f2-9570-b6a6c5b70a25.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/sim_ws/src/pure_pursuit/build/pure_pursuit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.474636] (pure_pursuit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.475606] (pure_pursuit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.476715] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node\n'}
+[7.485393] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/lib/pure_pursuit/record_waypoint_node\n'}
+[7.494446] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh\n'}
+[7.502572] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv\n'}
+[7.505890] (-) TimerEvent: {}
+[7.511788] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py\n'}
+[7.520602] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py\n'}
+[7.529949] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/config/pure_pursuit_params.yaml\n'}
+[7.538952] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py\n'}
+[7.547339] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/launch/record_waypoint_launch.py\n'}
+[7.555572] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/waypoints/waypoints.txt\n'}
+[7.576876] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit\n'}
+[7.585346] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit\n'}
+[7.593739] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh\n'}
+[7.601655] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv\n'}
+[7.606305] (-) TimerEvent: {}
+[7.609480] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/path.sh\n'}
+[7.617964] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/path.dsv\n'}
+[7.627368] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/local_setup.bash\n'}
+[7.635944] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/local_setup.sh\n'}
+[7.644776] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/local_setup.zsh\n'}
+[7.652880] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/local_setup.dsv\n'}
+[7.661043] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/package.dsv\n'}
+[7.669505] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit\n'}
+[7.677863] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake\n'}
+[7.686024] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake\n'}
+[7.693817] (pure_pursuit) StdoutLine: {'line': b'-- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/package.xml\n'}
+[7.707453] (-) TimerEvent: {}
+[7.729191] (pure_pursuit) StdoutLine: {'line': b"Listing '/sim_ws/src/pure_pursuit/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...\n"}
+[7.729373] (pure_pursuit) StdoutLine: {'line': b"Compiling '/sim_ws/src/pure_pursuit/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py'...\n"}
+[7.735660] (pure_pursuit) CommandEnded: {'returncode': 0}
+[7.795768] (pure_pursuit) JobEnded: {'identifier': 'pure_pursuit', 'rc': 0}
+[7.796289] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/sim_ws/src/pure_pursuit/build/pure_pursuit/pure_pursuit_node" "/sim_ws/src/pure_pursuit/build/pure_pursuit/record_waypoint_node" "TARGETS" "pure_pursuit_node" "record_waypoint_node" "DESTINATION" "lib/pure_pursuit")

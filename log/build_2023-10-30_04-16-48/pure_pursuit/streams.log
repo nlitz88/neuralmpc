@@ -1,0 +1,104 @@
+[0.028s] Invoking command in '/sim_ws/src/pure_pursuit/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /sim_ws/src/pure_pursuit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/sim_ws/src/pure_pursuit/install/pure_pursuit
+[0.132s] -- The C compiler identification is GNU 9.4.0
+[0.184s] -- The CXX compiler identification is GNU 9.4.0
+[0.190s] -- Check for working C compiler: /usr/bin/cc
+[0.264s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.265s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.338s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++
+[0.408s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.409s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.491s] -- Detecting CXX compile features
+[0.491s] -- Detecting CXX compile features - done
+[0.494s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.511s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.511s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.650s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.678s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.723s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.731s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.795s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.811s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.876s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.934s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.936s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.937s] -- Looking for pthread.h
+[1.000s] -- Looking for pthread.h - found
+[1.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.067s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.067s] -- Looking for pthread_create in pthreads
+[1.122s] -- Looking for pthread_create in pthreads - not found
+[1.122s] -- Looking for pthread_create in pthread
+[1.188s] -- Looking for pthread_create in pthread - found
+[1.188s] -- Found Threads: TRUE  
+[1.348s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[1.349s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.384s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.458s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.495s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.568s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.650s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.009s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.018s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.019s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.075s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.146s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.149s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.150s] -- Configured cppcheck include dirs: /sim_ws/src/pure_pursuit/include
+[2.150s] -- Configured cppcheck exclude dirs and/or files: 
+[2.153s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.153s] -- Configured cpplint exclude dirs and/or files: 
+[2.154s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.155s] -- Added test 'lint_cmake' to check CMake code style
+[2.156s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.160s] -- Added test 'uncrustify' to check C / C++ code style
+[2.160s] -- Configured uncrustify additional arguments: 
+[2.161s] -- Added test 'xmllint' to check XML markup files
+[2.166s] -- Configuring done
+[2.200s] -- Generating done
+[2.202s] -- Build files have been written to: /sim_ws/src/pure_pursuit/build/pure_pursuit
+[2.209s] Invoked command in '/sim_ws/src/pure_pursuit/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /sim_ws/src/pure_pursuit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/sim_ws/src/pure_pursuit/install/pure_pursuit
+[2.212s] Invoking command in '/sim_ws/src/pure_pursuit/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/pure_pursuit/build/pure_pursuit -- -j12 -l12
+[2.247s] [35m[1mScanning dependencies of target record_waypoint_node[0m
+[2.248s] [35m[1mScanning dependencies of target pure_pursuit_node[0m
+[2.282s] [ 25%] [32mBuilding CXX object CMakeFiles/record_waypoint_node.dir/src/record_waypoint_node.cpp.o[0m
+[2.289s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o[0m
+[6.343s] [ 75%] [32m[1mLinking CXX executable pure_pursuit_node[0m
+[6.595s] [ 75%] Built target pure_pursuit_node
+[7.211s] [100%] [32m[1mLinking CXX executable record_waypoint_node[0m
+[7.415s] [100%] Built target record_waypoint_node
+[7.431s] Invoked command in '/sim_ws/src/pure_pursuit/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/pure_pursuit/build/pure_pursuit -- -j12 -l12
+[7.468s] Invoking command in '/sim_ws/src/pure_pursuit/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/pure_pursuit/build/pure_pursuit
+[7.474s] -- Install configuration: ""
+[7.475s] -- Execute custom install script
+[7.476s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+[7.485s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/lib/pure_pursuit/record_waypoint_node
+[7.494s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+[7.502s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+[7.511s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py
+[7.520s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+[7.529s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/config/pure_pursuit_params.yaml
+[7.538s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[7.547s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/launch/record_waypoint_launch.py
+[7.555s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/waypoints/waypoints.txt
+[7.576s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[7.585s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[7.593s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[7.601s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[7.609s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[7.617s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[7.627s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[7.635s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[7.644s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[7.652s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[7.660s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/package.dsv
+[7.669s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[7.677s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[7.685s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[7.693s] -- Symlinking: /sim_ws/src/pure_pursuit/install/pure_pursuit/share/pure_pursuit/package.xml
+[7.728s] Listing '/sim_ws/src/pure_pursuit/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...
+[7.729s] Compiling '/sim_ws/src/pure_pursuit/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py'...
+[7.735s] Invoked command in '/sim_ws/src/pure_pursuit/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/pure_pursuit/build/pure_pursuit
