@@ -174,24 +174,24 @@ NORMALIZED_DISCRETE_SAMPLE_LENGTH = 2
 # columns that we don't need for training our NormalizedDiscrete models--but we
 # don't quite have that worked out yet. So for now, we just select which columns
 # we want upon loading in the data.
-# NORMALIZED_DISCRETE_CSV_COLUMNS = ["u/u_a",         
-#                                    "u/u_steer",
-#                                    "v/v_long",
-#                                    "v/v_tran",
-#                                    "w/w_psi",
-#                                    "x/x",
-#                                    "x/y",
-#                                    "e/psi"
-#                                    ]
-NORMALIZED_DISCRETE_CSV_COLUMNS = ["acceleration-(m/s^2)",         
-                                   "steering-angle-(rad)",
-                                   "x-velocity-(m/s)",
-                                   "y-velocity-(m/s)",
-                                   "z-angular-velocity-(rad/s)",
-                                   "x-position-(m)",
-                                   "y-position-(m)",
-                                   "yaw-(rad)"
+NORMALIZED_DISCRETE_CSV_COLUMNS = ["u/u_a",         
+                                   "u/u_steer",
+                                   "v/v_long",
+                                   "v/v_tran",
+                                   "w/w_psi",
+                                   "x/x",
+                                   "x/y",
+                                   "e/psi"
                                    ]
+# NORMALIZED_DISCRETE_CSV_COLUMNS = ["speed-(m/s)",         
+#                                    "steering-angle-(rad)",
+#                                    "x-velocity-(m/s)",
+#                                    "y-velocity-(m/s)",
+#                                    "z-angular-velocity-(rad/s)",
+#                                    "x-position-(m)",
+#                                    "y-position-(m)",
+#                                    "yaw-(rad)"
+#                                    ]
 
 # TODO: It would be nice to have some kind of column name remapping. Maybe
 # that's not this module's responsibility, though.
